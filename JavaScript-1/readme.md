@@ -9,9 +9,8 @@ A simple, clean, and interactive To-Do List application built using **HTML**, **
 - 🗑️ Remove completed tasks (optional improvement)
 - ✨ Minimal and responsive UI
 
-## 📸 Screenshot
-
-![To-Do List App Screenshot](./screenshot.png)
+## Link(To Do App)
+<a href="file:///C:/Users/Vishwa/OneDrive/Desktop/FullStack%20Projects/JavaScript-1/index.html">To-Do-list<a>
 
 ## 💻 Technologies Used
 

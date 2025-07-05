@@ -10,8 +10,7 @@ A simple, clean, and interactive To-Do List application built using **HTML**, **
 - ✨ Minimal and responsive UI
 
 ## Link(To Do App)
-file:///C:/Users/Vishwa/OneDrive/Desktop/FullStack%20Projects/JavaScript-1/index.html
-
+C:\Users\Vishwa\OneDrive\Desktop\FullStack Projects\To-Do-List\index.html
 ## 💻 Technologies Used
 
 - HTML5

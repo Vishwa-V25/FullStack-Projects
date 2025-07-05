@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#di {
+  background-color: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px ;
+  width: 400px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: ;
+}
+
+h2 {
+text-align: center;
+  margin-top: 30px;
+  color: black;
+}
+
+
+#addtask {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+
+#submit {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+#submit:hover {
+  background-color: darkgray;
+}
+
+
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+li button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #e7f3ff;
+  color: #333;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+li button:hover {
+  background-color: #cfe8ff;
+}

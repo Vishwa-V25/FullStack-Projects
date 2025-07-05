@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+<title>Feedback Form</title>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="icon" type="image/png" href="feedback.png">
+
+
+</head>
+<body id="bg">
+   <h1 id="title">Product FeedBack Form!!</h1>
+   <p id="description">Thank you for choosing our product ......</p>
+<div class="container">
+   <form id=survey-form>
+     <label id="name-label">Enter your Name : <input id="name" placeholder="Name..... " required type="text">
+     </label>
+     <label id="email-label">Enter your Email : <input id="email" placeholder="Email...... "required type="email">
+     </label>
+     <label id="number-label">Enter your Product Id : <input id="number" placeholder="Product Id...... "required type="number" min="0" max="10000">
+     </label>
+     <label>
+      Enter your product type :<select id="dropdown">
+        <option>
+          (Select one)
+        </option>
+        <option>
+          Mobile
+        </option>
+        <option>
+          Headphone
+        </option>
+        <option>
+          Television
+        </option>
+        <option>
+          Caravan
+        </option>
+     </select>
+     </label>
+     <fieldset>
+       <legend> Opinion about Product</legend>
+        <label>
+        <input type="radio" name="account-type" 
+        id="first"value="Usefull" checked />Usefull</label>
+        <label>
+          <input
+        type="radio" name="account-type" value="Not Usefull" id="second"/> Not usefull</label>
+      </fieldset>
+      <fieldset>
+       <legend>Positive On Us</legend>
+        <label>
+        <input type="checkbox" value="quality" checked />Product quality is excellent
+        </label>
+        <label>
+        <input
+        type="checkbox"  value="found"/>Found everything I needed
+        </label>
+         <label>
+        <input
+        type="checkbox"  value="staff"/>Friendly and helpful staff
+        </label>
+         <label>
+        <input
+        type="checkbox"  value="store"/>Store is clean and well-maintained
+        </label>
+      </fieldset>
+      <label>Feedback (Required):
+          <textarea  placeholder="Please feel free to give your feedback..."></textarea>
+        </label>
+      <input type="submit"value="Submit" id="submit" />
+      </form>
+</div>
+ </body>
+</html>

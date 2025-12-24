@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #020617, #020617);
+  color: #e5e7eb;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  width: 260px;
+  min-width: 260px;
+  max-width: 260px;
+  background: #020617;
+  border-right: 1px solid #1e293b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.logo {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.project-input input {
+  width: 100%;
+  min-width: 0;
+  height: 36px;
+  padding: 0 10px;
+  background: #020617;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+  outline: none;
+  border-radius: 6px;
+}
+
+.project-input input::placeholder {
+  color: #64748b;
+}
+
+.project-input button {
+  height: 36px;
+  padding: 0 14px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.project-input button:hover {
+  background: #1d4ed8;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-card {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  cursor: pointer;
+  transition: border 0.2s ease, background 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: #334155;
+}
+
+.project-card.active {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.project-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-meta {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+.workspace {
+  flex: 1;
+  padding: 28px 36px;
+  overflow-y: auto;
+}
+
+.task-board {
+  margin-top: 0;
+}
+
+.workspace-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #1e293b;
+  margin-bottom: 28px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  max-width: 720px;
+}
+
+.task-input input {
+  flex: 1;
+  height: 36px;
+  padding: 0 10px;
+  background: #020617;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+  border-radius: 6px;
+}
+
+.task-input button {
+  height: 36px;
+  padding: 0 14px;
+  background: #22c55e;
+  border: none;
+  color: #020617;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background: #16a34a;
+}
+
+.task-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.task-title {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e5e7eb;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.task-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.task-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.dashboard {
+  margin-top: 32px;
+}
+
+.dashboard h3 {
+  margin-bottom: 12px;
+}
+
+.dashboard p {
+  margin: 4px 0;
+  color: #cbd5f5;
+}

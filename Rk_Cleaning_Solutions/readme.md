@@ -1,4 +1,4 @@
-# 🧹 RK Cleaning Solutions – Service Booking App
+# 🧹 CleanProHub – Service Booking App
 
 A modern and responsive **household services booking website** that allows users to easily book cleaning and home services online.  
 Built using **React** and **JavaScript**, the app provides a smooth and user-friendly experience.
